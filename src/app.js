@@ -54,7 +54,9 @@ app.get('/api/users/:id', (req, res) => {
 });
 
 app.post('/api/users', (req, res) => {
-  const { name, email } = req.body;
+  const { 
+    name, 
+    email } = req.body;
 
   // Validation
   if (!name || !email) {
