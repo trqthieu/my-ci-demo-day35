@@ -1,0 +1,41 @@
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Git
+.git
+.gitignore
+.github
+
+# Tests and coverage
+coverage
+*.test.js
+__tests__
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.github/workflows
+
+# Documentation
+README.md
+*.md
+
+# Logs
+logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
